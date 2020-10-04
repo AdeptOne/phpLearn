@@ -6,6 +6,7 @@
     </head>
     <body>
         <?php
+            include "bindec.php";
             echo "Вывод рандомного числа от 0 до 2000: ", mt_rand(0,2000) , "<br />";
             $var = 42.43752;
             echo round($var , 2) . "\n";
