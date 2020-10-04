@@ -10,5 +10,6 @@
             echo "1 - " . bindec(decbin(4252)) . ",\n";
             echo "2 - " . bindec(decbin(89080)) . "<br />";
          ?>
+
     </body>
 </html>
